@@ -10,7 +10,7 @@ Este projeto consiste em um bot de atendimento desenvolvido para o Telegram. O b
 ## Instruções de Uso
 1. Inicie o bot no aplicativo Telegram.
 2. Envie mensagens para o bot.
-3. Durante o horário comercial (09:00 às 18:00), o bot responderá com um link para o site da empresa.
+3. Durante o horário comercial (09:00 às 18:00), o bot responderá com um link para o site da faesa.
 4. Fora do horário comercial, o bot solicitará o e-mail do usuário para contato futuro.
 
 ## Pré-requisitos
