@@ -15,7 +15,7 @@ Este projeto consiste em um bot de atendimento desenvolvido para o Telegram. O b
 
 ## Pré-requisitos
 - Node.js instalado na sua máquina.
-- SQLite instaldo na sua máquina.
+- SQLite instalado na sua máquina.
 - Conta no Telegram para registrar um novo bot.
 
 ## Configuração 🔧
