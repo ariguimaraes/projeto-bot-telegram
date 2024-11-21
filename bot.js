@@ -11,10 +11,10 @@ bot.on('text', async (ctx) => {
     const currentHour = currentTime.getHours();
     const userMessage = ctx.message.text;
 
-    if (currentHour >= 9 && currentHour < 18) {
-        await ctx.reply('O horário de funcionamento da empresa é das 09:00 às 18:00. Por favor, visite o link: https://faesa.br');
+    if (currentHour >= 9 && currentHour < 14) {
+        await ctx.reply('O horário de funcionamento da empresa é das 09:00 às 14:00. Por favor, visite o link: https://faesa.br');
     } else {
-        await ctx.reply('O horário de funcionamento da empresa é das 09:00 às 18:00. Por favor, deixe seu e-mail para que possamos entrar em contato.');
+        await ctx.reply('O horário de funcionamento da empresa é das 09:00 às 14:00. Por favor, deixe seu e-mail para que possamos entrar em contato.');
         
         const userEmail = userMessage.match(/\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b/g);
         if (userEmail && userEmail.length > 0) {
